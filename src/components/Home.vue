@@ -1,13 +1,21 @@
 <template>
-  <div class="hello">hello world</div>
+  <div>
+    <home-header></home-header>
+  </div>
 </template>
 
 <script>
+import HomeHeader from './home/header.vue'
 export default {
-  name: "Home"
+  name: "Home",
+  components:{
+    HomeHeader
+  }
 };
 </script>
 
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
 </style>
