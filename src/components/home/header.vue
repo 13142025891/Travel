@@ -8,7 +8,8 @@
       输入城市景点游玩主题
     </div>
     <div class="header-right">
-      城市 <span class="iconfont arrow-icon">&#xe64a;</span>
+      城市
+      <span class="iconfont arrow-icon">&#xe64a;</span>
     </div>
   </div>
 </template>
@@ -21,7 +22,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus" scoped>
-@import "~styles/varibles.styl"
+@import '~styles/varibles.styl'
+
 .header
   display flex
   line-height 0.86rem
