@@ -19,9 +19,7 @@
       </li>
     </ul>
   </div>
-
 </template>
-
 <script>
 export default {
   name: "HomeRecommend",
@@ -32,7 +30,6 @@ export default {
 </script>
 <style lang="stylus" scoped>
 @import '~styles/mixins.styl'
-
 .title
   margin-top 0.1rem
   line-height 0.8rem

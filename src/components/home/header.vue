@@ -7,13 +7,14 @@
       <span class="iconfont">&#xe632;</span>
       输入城市景点游玩主题
     </div>
-    <div class="header-right">
-      {{city}}
-      <span class="iconfont arrow-icon">&#xe64a;</span>
-    </div>
+    <router-link to='/city'>
+      <div class="header-right">
+        {{city}}
+        <span class="iconfont arrow-icon">&#xe64a;</span>
+      </div>
+    </router-link>
   </div>
 </template>
-
 <script>
 export default {
   name: "HomeHeader",
@@ -22,14 +23,11 @@ export default {
   }
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl'
-
 .header
   display flex
-  line-height 0.86rem
+  line-height $headerHeight
   background $bgColor
   color #fff
   .header-left

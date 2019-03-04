@@ -7,13 +7,10 @@
           :src="item.imgUrl"
         >
       </swiper-slide>
-      
-
       <div class="swiper-pagination" slot="pagination"></div>
     </swiper>
   </div>
 </template>
-
 <script>
 export default {
   name: "HomeSwiper",
@@ -29,12 +26,10 @@ export default {
         loop:true,
         autoplay:true
       }
-          
     }
   }
 }
 </script>
-
 <style lang="stylus" scoped>
   .wrapper >>> .swiper-pagination-bullet-active
     background #ffffff !important

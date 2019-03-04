@@ -12,7 +12,6 @@
     </swiper>
   </div>
 </template>
-
 <script>
 export default {
   name: "HomeIcons",

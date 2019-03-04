@@ -7,7 +7,6 @@
     <home-weekend :list="weekendList"></home-weekend>
   </div>
 </template>
-
 <script>
 import HomeHeader from "./home/header.vue";
 import HomeSwiper from "./home/Swiper";
@@ -55,8 +54,5 @@ export default {
   }
 };
 </script>
-
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 </style>
