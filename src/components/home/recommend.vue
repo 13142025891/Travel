@@ -4,7 +4,7 @@
     <ul>
       <li
         class="item border-bottom"
-        v-for="item of recommedList"
+        v-for="item of list"
         :key="item.id"
       >
         <img
@@ -25,39 +25,8 @@
 <script>
 export default {
   name: "HomeRecommend",
-  data() {
-    return {
-      recommedList: [
-        {
-          id: "0001",
-          imgUrl:
-            "http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg",
-          title: "深圳野生动物园",
-          desc: "山清水秀的深圳西丽湖畔"
-        },
-        {
-          id: "0002",
-          imgUrl:
-            "http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg",
-          title: "深圳野生动物园",
-          desc: "山清水秀的深圳西丽湖畔"
-        },
-        {
-          id: "0003",
-          imgUrl:
-            "http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg",
-          title: "深圳野生动物园",
-          desc: "山清水秀的深圳西丽湖畔"
-        },
-        {
-          id: "0004",
-          imgUrl:
-            "http://img1.qunarzz.com/sight/p0/1508/2e/d9363ce50a88c8c5ff5a138c67687cd4.water.jpg_200x200_1c15c8f5.jpg",
-          title: "深圳野生动物园",
-          desc: "山清水秀的深圳西丽湖畔"
-        }
-      ]
-    };
+  props:{
+    list:Array
   }
 };
 </script>
