@@ -4,7 +4,6 @@ import router from './route/index'
 import fastClick from 'fastclick'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import store from './store'
-import  './config'
 
 import 'styles/border.css'
 import 'styles/reset.css'
